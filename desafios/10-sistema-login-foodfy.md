@@ -69,8 +69,8 @@ routes.put('/admin/profile', ProfileController.put)// Editar o usuário logado
 // Rotas que o administrador irá acessar para gerenciar usuários
 routes.get('/admin/users', UserController.list) //Mostrar a lista de usuários cadastrados
 routes.post('/admin/users', UserController.post) //Cadastrar um usuário
-routes.put('/admin/users', UserController.put) // Editar um usuário
-routes.delete('/admin/users', UserController.delete) // Deletar um usuário
+routes.put('/admin/users/:id', UserController.put) // Editar um usuário
+routes.delete('/admin/users/:id', UserController.delete) // Deletar um usuário
 ```
 
 ### Tabelas
