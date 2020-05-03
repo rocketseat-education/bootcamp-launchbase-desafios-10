@@ -80,7 +80,7 @@ Crie uma tabela de nome `users` com os seguintes campos:
 - `id SERIAL PRIMARY KEY`
 - `name TEXT NOT NULL`
 - `email TEXT UNIQUE NOT NULL`
-- `password TEXT NOT NULL`
+- `password TEXT`
 - `reset_token TEXT`
 - `reset_token_expires TEXT`
 - `is_admin BOOLEAN DEFAULT false`
