@@ -53,7 +53,7 @@ A partir disso, **cuidado com os botões de acesso** que existem no site e na á
 
 Crie uma estrutura de proteção para impedir o acesso a **usuários não autenticados.**
 
-Crie uma estrutura de proteção para impedir que os usuários que estão autenticados**, mas não são administradores**, não tenham permissão de acesso a certas rotas, conforme as instruções acima.
+Crie uma estrutura de proteção para impedir que os usuários que estão **autenticados**, mas não são **administradores**, não tenham permissão de acesso a certas rotas, conforme as instruções acima.
 
 Crie uma estratégia que quando o administrador criar um usuário novo, **o sistema irá criar uma senha** aleatória e enviar por email ao usuário criado. **DICA***: Use a estratégia de criação de TOKEN que você viu nas aulas*.
 
